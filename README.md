@@ -11,11 +11,11 @@ This Streamlit application implements an Autonomous Retrieval-Augmented Generati
 
 How to get Started?
 
-1.Clone the GitHub repository git clone https://github.com/aymenhmid/autonomous_rag.git
-2. Install the required dependencies: pip install -r requirements.txt
-3. Ensure PgVector Database is running: The app expects PgVector to be running on localhost:5532. Adjust the configuration in the code if your setup is different. docker run -d \-e POSTGRES_DB=ai \-e POSTGRES_USER=ai \-e POSTGRES_PASSWORD=ai \-e PGDATA=/var/lib/postgresql/data/pgdata \
+.Clone the GitHub repository git clone https://github.com/aymenhmid/autonomous_rag.git
+. Install the required dependencies: pip install -r requirements.txt
+. Ensure PgVector Database is running: The app expects PgVector to be running on localhost:5532. Adjust the configuration in the code if your setup is different. docker run -d \-e POSTGRES_DB=ai \-e POSTGRES_USER=ai \-e POSTGRES_PASSWORD=ai \-e PGDATA=/var/lib/postgresql/data/pgdata \
   -v pgvolume:/var/lib/postgresql/data \
   -p 5532:5432 \
   --name pgvector \
   phidata/pgvector:16
-4. Run the Streamlit App streamlit run autorag.py
+. Run the Streamlit App streamlit run autorag.py
