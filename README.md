@@ -23,5 +23,3 @@ How to get Started?
 ```
 
 4. Run the Streamlit App: `streamlit run autorag.py`
-
-Please let me know if there are any changes or additional information you'd like to include.
