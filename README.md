@@ -1,5 +1,3 @@
-Here's a draft of the README file presentation for your AutoRAG application. Please review it to ensure all details are accurate and up-to-date.
-
 🤖 AutoRAG: Autonomous RAG with GPT-4o and Vector Database
 
 This Streamlit application implements an Autonomous Retrieval-Augmented Generation (RAG) system using OpenAI's GPT-4o model and PgVector database. It allows users to upload PDF documents, add them to a knowledge base, and query the AI assistant with context from both the knowledge base and web searches.
